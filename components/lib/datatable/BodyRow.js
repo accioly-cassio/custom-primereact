@@ -442,7 +442,6 @@ export const BodyRow = React.memo((props) => {
                         onRowEditSave={onEditSave}
                         rowSpan={rowSpan}
                         selectionAriaLabel={props.tableProps.selectionAriaLabel}
-
                         isSelected={isSelected()}
                     />
                 );

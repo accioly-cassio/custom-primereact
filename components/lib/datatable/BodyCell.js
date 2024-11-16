@@ -15,7 +15,6 @@ import { RowCheckbox } from './RowCheckbox';
 import { RowRadioButton } from './RowRadioButton';
 
 export const BodyCell = React.memo((props) => {
-    console.log('BodyCell rendered')
     const mergeProps = useMergeProps();
     const [editingState, setEditingState] = React.useState(props.editing);
     const [editingRowDataState, setEditingRowDataState] = React.useState(props.rowData);
@@ -839,5 +838,3 @@ export const BodyCell = React.memo((props) => {
 });
 
 BodyCell.displayName = 'BodyCell';
-
-
